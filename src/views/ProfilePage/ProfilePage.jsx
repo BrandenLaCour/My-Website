@@ -88,7 +88,7 @@ class ProfilePage extends React.Component {
                   perspecitve and punctiality with projects. When he starts
                   something he finishes it. This led to overwhelming
                   satisfaction with programing due to the problem solving nature
-                  of it. Building things and solving problems is now the number
+                  of it. Building things and solving problems is now his number
                   one goal! .{" "}
                 </p>
               </div>

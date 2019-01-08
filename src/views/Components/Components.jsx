@@ -41,7 +41,7 @@ class Components extends React.Component {
           fixed
           color="transparent"
           changeColorOnScroll={{
-            height: 400,
+            height: 200,
             color: "white"
           }}
           {...rest}
@@ -51,7 +51,7 @@ class Components extends React.Component {
             <GridContainer>
               <GridItem>
                 <div className={classes.brand}>
-                  <h1 className={classes.title}>Material Kit dsdReact.</h1>
+                  <h1 className={classes.title}>Material Kit React.</h1>
                   <h3 className={classes.subtitle}>
                     A Badass Material-UI Kit based on Material Design.
                   </h3>
