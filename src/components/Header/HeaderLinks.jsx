@@ -32,10 +32,10 @@ function HeaderLinks({ ...props }) {
             <Link to="/" className={classes.dropdownLink}>
               Home
             </Link>,
-            <Link to="/blog" className={classes.dropdownLink}>
-              Blog
-            </Link>,
-            <Link to="/" className={classes.dropdownLink}>
+            // <Link to="/blog" className={classes.dropdownLink}>
+            //   Blog
+            // </Link>,
+            <Link to="/projects" className={classes.dropdownLink}>
               Projects
             </Link>,
             <Link to="/about" className={classes.dropdownLink}>
@@ -52,7 +52,7 @@ function HeaderLinks({ ...props }) {
         />
       </ListItem>
       <ListItem className={classes.listItem} />
-      <ListItem className={classes.listItem}>
+      {/* <ListItem className={classes.listItem}>
         <Tooltip
           id="instagram-twitter"
           title="Follow us on twitter"
@@ -102,7 +102,7 @@ function HeaderLinks({ ...props }) {
             <i className={classes.socialIcons + " fab fa-instagram"} />
           </Button>
         </Tooltip>
-      </ListItem>
+      </ListItem> */}
     </List>
   );
 }

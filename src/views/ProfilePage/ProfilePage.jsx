@@ -67,7 +67,8 @@ class ProfilePage extends React.Component {
                     <div className={classes.name}>
                       <h3 className={classes.title}>Branden LaCour</h3>
                       <h6>Front End Developer</h6>
-                      <Button justIcon link className={classes.margin5}>
+                      <h7>Chicago, IL</h7>
+                      {/* <Button justIcon link className={classes.margin5}>
                         <i className={"fab fa-twitter"} />
                       </Button>
                       <Button justIcon link className={classes.margin5}>
@@ -75,13 +76,13 @@ class ProfilePage extends React.Component {
                       </Button>
                       <Button justIcon link className={classes.margin5}>
                         <i className={"fab fa-facebook"} />
-                      </Button>
+                      </Button> */}
                     </div>
                   </div>
                 </GridItem>
               </GridContainer>
               <div className={classes.description}>
-                <p>
+                <p style={{ paddingBottom: "40px" }}>
                   Branden is a Chicago native that loves all things tech. He
                   switched from bar management to programming after a great talk
                   with a friend in the business. This gave him a team first
@@ -92,7 +93,7 @@ class ProfilePage extends React.Component {
                   one goal! .{" "}
                 </p>
               </div>
-              <GridContainer justify="center">
+              {/* <GridContainer justify="center">
                 <GridItem xs={12} sm={12} md={8} className={classes.navWrapper}>
                   <NavPills
                     alignCenter
@@ -207,7 +208,7 @@ class ProfilePage extends React.Component {
                     ]}
                   />
                 </GridItem>
-              </GridContainer>
+              </GridContainer> */}
             </div>
           </div>
         </div>
