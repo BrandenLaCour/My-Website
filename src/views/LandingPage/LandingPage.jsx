@@ -51,7 +51,7 @@ class LandingPage extends React.Component {
                   Node.js, Express and PostgreSQL
                 </h4>
                 <br />
-                <Button
+                {/* <Button
                   color="danger"
                   size="lg"
                   href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
@@ -60,7 +60,7 @@ class LandingPage extends React.Component {
                 >
                   <i className="fas fa-play" />
                   Watch video
-                </Button>
+                </Button> */}
               </GridItem>
             </GridContainer>
           </div>

@@ -42,9 +42,9 @@ function Footer({ ...props }) {
               </Link>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
-              <Link to="/blog" className={classes.block} target="_blank">
+              {/* <Link to="/blog" className={classes.block} target="_blank">
                 Blog
-              </Link>
+              </Link> */}
             </ListItem>
           </List>
         </div>
