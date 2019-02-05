@@ -35,7 +35,11 @@ const tileData = [
     desc: "This website was built with React.js and Material Ui",
     cols: 2,
     tools: "React.Js, Material Ui,",
+<<<<<<< HEAD
     link: "https://github.com/BrandenLaCour/My-Website"
+=======
+    link: "https://github.com/BrandenLaCour"
+>>>>>>> d010dadb7ba1b7cae0a3ae270fb2b5fbbf0a6add
   },
   {
     img: faceFinder,
