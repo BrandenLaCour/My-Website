@@ -41,10 +41,9 @@ class ProductSection extends React.Component {
           <GridContainer>
             <GridItem xs={12} sm={12} md={4}>
               <InfoArea
-                title="React.js"
+                title="React.js, Redux"
                 description="React is an amazing library. I enjoy working with it because it has a simple, yet complex structure. The use of components
-                makes it easy to read the code, as well as organize files and dependencies. You also can pair it with so many libraries such as bootstrap, tachyons, lodash, material ui, and more.
-                Can you tell, this very website has been created with React?"
+                makes it easy to read the code, as well as organize files and dependencies. Redux is also an amazing state management tool once an App becomes fairly large. The ability to access state without passing it down widely increases productivity and organization of state. Did you know this website is actually a react app?"
                 icon={Code}
                 iconColor="info"
                 vertical
