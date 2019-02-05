@@ -52,7 +52,7 @@ function Footer({ ...props }) {
           &copy; {1900 + new Date().getYear()} , made with{" "}
           <Favorite className={classes.icon} /> by{" "}
           <a
-            href="https://www.creative-tim.com"
+            href="https://www.linkedin.com/in/branden-lacour-95b702a6/"
             className={aClasses}
             target="_blank"
           >
