@@ -15,9 +15,10 @@ const style = {
 };
 
 function GridItem({ ...props }) {
-  const { classes, children, className, ...rest } = props;
+  const { classes, children, ...rest } = props;
+  const classname = props.className;
   return (
-    <Grid item {...rest} className={classes.grid + " " + className}>
+    <Grid item {...rest} className={classes.grid + " " + classname}>
       {children}
     </Grid>
   );

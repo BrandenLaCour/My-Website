@@ -35,7 +35,7 @@ const tileData = [
     desc: "This website was built with React.js and Material Ui",
     cols: 2,
     tools: "React.Js, Material Ui,",
-    link: "https://github.com/BrandenLaCour"
+    link: "https://github.com/BrandenLaCour/My-Website"
   },
   {
     img: faceFinder,
@@ -71,7 +71,6 @@ function TitlebarGridList(props) {
           <GridListTile
             key={tile.img}
             className="grow"
-            classN
             onClick={() => handleClick(tile.link)}
             cols={tile.cols || 1}
           >
