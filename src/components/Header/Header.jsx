@@ -76,8 +76,8 @@ class Header extends React.Component {
       [classes.fixed]: fixed
     });
     const brandComponent = (
-      <Button variant="outlined">
-        <Link style={{ color: "white" }} to="/">
+      <Button className={classes.title} variant="outlined">
+        <Link className={classes.title} to="/">
           {brand}
         </Link>
       </Button>

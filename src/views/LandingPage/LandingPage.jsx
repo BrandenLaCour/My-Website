@@ -11,7 +11,7 @@ import Header from "components/Header/Header.jsx";
 import Footer from "components/Footer/Footer.jsx";
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
-import Button from "components/CustomButtons/Button.jsx";
+
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
 
@@ -46,9 +46,10 @@ class LandingPage extends React.Component {
               <GridItem xs={12} sm={12} md={8}>
                 <h1 className={classes.title}>Passionate Development</h1>
                 <h4>
-                  Bringing passion to all things development. Currently
-                  maximizing in React.js, Redux, Bootstrap, Material Ui,
-                  Node.js, Express and PostgreSQL
+                  My focus is to continue to learn and evolve as technology
+                  improves. We are always creating better ways to do things,
+                  It's better to embrace it, than to fall behind! I'm always
+                  finding enjoyment in every coding solution.
                 </h4>
                 <br />
                 {/* <Button

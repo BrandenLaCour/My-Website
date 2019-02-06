@@ -71,7 +71,6 @@ function TitlebarGridList(props) {
           <GridListTile
             key={tile.img}
             className="grow"
-            classN
             onClick={() => handleClick(tile.link)}
             cols={tile.cols || 1}
           >
