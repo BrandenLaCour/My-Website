@@ -52,8 +52,7 @@ class ProductSection extends React.Component {
               <InfoArea
                 title="Bootstrap/Material Ui"
                 description="Two amazing yet very different tools for constructing a responsive, and beautiful UI. I have worked with both, and enjoy them for their respective roles. 
-                Material is great because you have already build components you can use, that only import the dependancies they need, then Bootstrap is great because it simplifies
-                the process of dealing with Css in your project."
+                Material Ui is great because you have components already made that you can use, that only import the dependancies they need. Finally, Bootstrap is wonderful due to the simplification of dealing with css, and making things responsive."
                 icon={ImportantDevices}
                 iconColor="success"
                 vertical
