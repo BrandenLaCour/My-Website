@@ -24,7 +24,7 @@ class WorkSection extends React.Component {
               hours. Thank you for your time! Send an email to the address
               below.
             </h4>
-            h<h3 className={classes.title}>brandenlacour@gmail.com</h3>
+            <h4 className={classes.title}>brandenlacour@gmail.com</h4>
             {/* <form>
               <GridContainer>
                 <GridItem xs={12} sm={12} md={6}>
