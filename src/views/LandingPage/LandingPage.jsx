@@ -47,8 +47,8 @@ class LandingPage extends React.Component {
                 <h1 className={classes.title}>Passionate Development</h1>
                 <h4>
                   My focus is to continue to learn and evolve as technology
-                  improves. We are always creating better ways to do things,
-                  It's better to embrace it, than to fall behind! I'm always
+                  improves. We are always creating better ways to do things.
+                  It's better to embrace it than to fall behind! I'm always
                   finding enjoyment in every coding solution.
                 </h4>
                 <br />

@@ -19,10 +19,10 @@ class WorkSection extends React.Component {
           <GridItem cs={12} sm={12} md={8}>
             <h2 className={classes.title}>Work With Me</h2>
             <h4 className={classes.description}>
-              Divide details about your product, or company into parts. Write a
-              few lines about each one and I will get back to you in a couple
-              hours. Thank you for your time! Send an email to the address
-              below.
+              Want to divide details about your product, or company into parts?
+              Write a few lines about each one and I will get back to you in a
+              couple hours. Thank you for your time! Send an email to the
+              address below.
             </h4>
             <h4 className={classes.title}>brandenlacour@gmail.com</h4>
             {/* <form>

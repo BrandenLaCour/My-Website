@@ -70,14 +70,13 @@ class ProfilePage extends React.Component {
               </GridContainer>
               <div className={classes.description}>
                 <p style={{ paddingBottom: "40px" }}>
-                  Branden is a Chicago native that loves all things tech. He
+                  I'm Branden, a Chicago native that loves all things tech. I
                   switched from bar management to programming after a great talk
-                  with a friend in the business. When he starts something he
-                  finishes it, this is a montra he has always followed. This led
-                  to overwhelming satisfaction with programing due to the
-                  problem solving nature of it. Building things and solving
-                  problems is now his number one goal! He is now working as a
-                  contracted Web Developer in Chicago using React primarily.{" "}
+                  with a friend in the business. When I start something, I
+                  finish it. The satisfaction of completing a project draws me
+                  to programming due to its problem solving nature. I am
+                  currently working as a contracted Web Developer in Chicago
+                  using React as my primary framework.{" "}
                 </p>
               </div>
               {/* <GridContainer justify="center">
